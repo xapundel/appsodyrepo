@@ -1,0 +1,35 @@
+apiVersion: v2
+stacks:
+  - id: java-spring-boot2-liberty
+    name: Spring Boot® on Open Liberty
+    version: 0.1.8
+    description: Spring Boot on Open Liberty & OpenJ9 using Maven
+    license: Apache-2.0
+    language: java
+    maintainers:
+     - name: Ozzy
+       email: ozzy@ca.ibm.com
+       github-id: bardweller
+    default-template: default
+    templates:
+      - id: default
+        url: https://github.com/appsody/stacks/releases/download/java-spring-boot2-liberty-v0.1.8/experimental.java-spring-boot2-liberty.v0.1.8.templates.default.tar.gz
+ - id: nodejs-express
+    name: Node.js Express
+    version: 0.2.5
+    description: Express web framework for Node.js
+    license: Apache-2.0
+    language: nodejs
+    maintainers:
+      - name: Chris Bailey
+        email: cnbailey@gmail.com
+        github-id: seabaylea
+      - name: Neeraj Laad
+        email: neeraj.laad@gmail.com
+        github-id: neeraj-laad
+    default-template: simple
+    templates:
+      - id: simple
+        url: https://github.com/appsody/stacks/releases/download/nodejs-express-v0.2.5/incubator.nodejs-express.templates.simple.tar.gz
+      - id: skaffold
+        url: https://github.com/appsody/stacks/releases/download/nodejs-express-v0.2.5/incubator.nodejs-express.templates.skaffold.tar.gz
