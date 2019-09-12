@@ -1,7 +1,7 @@
 apiVersion: v2
 stacks:
   - id: java-spring-boot2-liberty
-    name: Spring Boot® on Open Liberty
+    name: Spring Boot® on Open Liberty for Demo
     version: 0.1.8
     description: Spring Boot on Open Liberty & OpenJ9 using Maven
     license: Apache-2.0
