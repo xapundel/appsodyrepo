@@ -14,7 +14,7 @@ stacks:
     templates:
       - id: default
         url: https://github.com/appsody/stacks/releases/download/java-spring-boot2-liberty-v0.1.8/experimental.java-spring-boot2-liberty.v0.1.8.templates.default.tar.gz
- - id: nodejs-express
+  - id: nodejs-express
     name: Node.js Express
     version: 0.2.5
     description: Express web framework for Node.js
